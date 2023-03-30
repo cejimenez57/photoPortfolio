@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cormorant', serif;
+}
+h1, nav, li{
+    display: inline-block;
+}
+h1{
+    margin:0 2rem 0 0;
+}
+.nav-bar{
+    margin: 2rem;
+}
+
+.main a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 1rem;
+}
+.main li:nth-child(1){
+    text-decoration: underline;
+}
+.main a:hover{
+    color: rgb(144, 137, 137);
+}
+.box{
+    width: 49.80%; /*Deletes white space*/
+    display: inline-block;
+    padding: 2rem;
+}
+.box img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+img:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.gallery{
+    padding: 16px;
+}
+.foot{
+    width: 40%;
+    min-width: 600px;
+    margin: 100px 0 100px 200px;
+}
+.foot h3:nth-child(even){
+    text-decoration: underline;
+    margin-top: 30px;
+}
+h3{
+    font-size: 40px;
+    font-weight: 300;
+}
+.contact{
+    margin-top: 100px;
+}
+.contact p{
+    margin: 0;
+    font-size: 20px;
+}
